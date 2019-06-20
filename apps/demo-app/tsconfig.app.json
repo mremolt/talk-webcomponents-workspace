@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": [],
+    "target": "es2017",
+    "module": "esnext",
+    "strict": true
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["src/test-setup.ts", "**/*.spec.ts"]
+}
