@@ -16,6 +16,12 @@
     },
     "ui-component-library": {
       "tags": []
+    },
+    "demo-react-app": {
+      "tags": []
+    },
+    "demo-react-app-e2e": {
+      "tags": []
     }
   }
 }

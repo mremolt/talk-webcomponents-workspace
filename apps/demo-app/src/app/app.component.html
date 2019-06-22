@@ -1,7 +1,12 @@
 <div style="text-align:center">
-  <h1>Welcome to {{ title }}!</h1>
+  <h1>
+    Welcome to <span>{{ title }}</span
+    >!
+  </h1>
 
-  <uicom-hello [who]="name"></uicom-hello>
+  <uicom-hello [who]="name" (my-event)="alertMe($event)"></uicom-hello>
+
+  <mwc-button unelevated="" label="Click me!" icon="check"></mwc-button>
 </div>
 
 <router-outlet></router-outlet>

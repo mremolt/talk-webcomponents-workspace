@@ -6,9 +6,6 @@
     "target": "es2017",
     "module": "esnext"
   },
-  "angularCompilerOptions": {
-    "enableIvy": false
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["src/test-setup.ts", "**/*.spec.ts"]
+  "exclude": ["**/*.spec.ts"],
+  "include": ["**/*.ts"]
 }

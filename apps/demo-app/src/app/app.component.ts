@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import '@material/mwc-button';
 import '@clear/ui-component-library';
 
 @Component({
@@ -9,14 +10,15 @@ import '@clear/ui-component-library';
 })
 export class AppComponent implements OnInit {
   public title = 'demo-app';
-  public name: string = 'World';
-
+  public name = 'World';
 
   public ngOnInit(): void {
-
     setTimeout(() => {
       this.name = 'Arthur';
-    },3000)
+    }, 3000);
   }
 
+  public alertMe(event: any) {
+    console.log('alert!!!', event);
+  }
 }
